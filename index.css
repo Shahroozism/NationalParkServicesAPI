@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: purple;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  button, input[type="text"] {
+    padding: 8px;
+    
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  
+  .error-message {
+      color: yellow;
+  }
+  
+  .hidden {
+    display: none;
+  }
